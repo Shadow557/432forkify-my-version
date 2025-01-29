@@ -143,4 +143,5 @@ const controlAddRecipe = async function (newRecipe) {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log(`WELCOME!`);
 })();
