@@ -20,7 +20,7 @@ const recipeContainer = document.querySelector('.recipe');
 
 ///////////////////////////////////////
 
-console.log(`TEST`);
+console.log(`Welcome to Forkify!`);
 
 const controlRecipes = async function () {
   try {
@@ -143,5 +143,4 @@ const controlAddRecipe = async function (newRecipe) {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log(`WELCOME!`);
 })();
